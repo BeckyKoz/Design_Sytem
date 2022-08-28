@@ -14,9 +14,9 @@ h1 {
 h2 {
     font-size: 25px;
     text-transform: uppercase;
-    text-align: center;
     margin: 10px;
     padding: 10px;
+    text-align: left;
 }
 
 p {
@@ -24,13 +24,11 @@ p {
 }
 
 section {
-    /* border: 2px solid gray; */
-    border-radius: 5px;
     padding: 20px;
     margin: 20px;
 }
 
-.colors div {
+div.container div {
     display: inline-block;
     padding: 30px;
     border: 2px solid black;
@@ -59,4 +57,24 @@ section {
 p + p {
     font-size: 15px;
     margin-top: 8px;
+}
+
+h3 {
+
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+div.container {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-left: 8px solid #626567;
+    border-radius: none;
 }
