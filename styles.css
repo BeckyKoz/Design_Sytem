@@ -8,11 +8,11 @@ h1 {
     text-align: center;
     margin: 15px;
     padding: 15px;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
     text-transform: uppercase;
     margin: 10px;
     padding: 10px;
@@ -28,10 +28,10 @@ section {
     margin: 20px;
 }
 
-div.container div {
+div.colors-container div {
     display: inline-block;
-    padding: 30px;
-    border: 2px solid black;
+    padding: 30px 60px;
+    border: 1px solid gray;
     margin: 15px;
     text-align: center;
     border-radius: 5px;
@@ -54,15 +54,23 @@ div.container div {
     color: #fbfcfc;
 }
 
-p + p {
+.colors-container p + p {
     font-size: 15px;
     margin-top: 8px;
 }
 
 h3 {
-
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: left;
 }
 
+h3 p {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+/* 
 .lora {
     font-family: 'Lora', serif;
 }
@@ -71,10 +79,60 @@ h3 {
     font-family: "Open Sans", sans-serif;
 }
 
-div.container {
+.oswald {
+    font-family: 'Oswald', sans-serif;
+} */
+
+.oxygen-mono {
+    font-family: "Oxygen Mono", monospace;
+}
+
+.playfair-display {
+    font-family: 'Playfair Display', serif;
+}
+
+.source-sans-pro {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* div.container {
     margin: 0;
-    padding: 0;
+    padding-left: 15px;
     border: 0;
-    border-left: 8px solid #626567;
+    border-left: 15px solid black;
     border-radius: none;
+} */
+
+div.colors-container, div.fonts-container, div.text-styles-container {
+    margin: 0;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.fonts-container div,
+.text-styles-container div {
+    padding: 25px;
+    margin: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    justify-content: left;
+}
+
+.fonts-container p {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+div.text-styles-container {
+    margin: 40px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 5px 15px;
+    margin: 15px;
 }
